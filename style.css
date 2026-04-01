@@ -1,0 +1,110 @@
+/* Global */
+body {
+  background-color: #f4f4f4;
+  color: #575f7d;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #3b4cca;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #6c7ae0;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Main container */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+/* White cards */
+.card-white {
+  background: white;
+  padding: 40px;
+  margin: 20px 0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* Profile image */
+.img-circle {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Button */
+.btn-blue {
+  display: inline-block;
+  background-color: #6c63ff;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 4px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.btn-blue:hover {
+  background-color: #574bdb;
+}
+
+/* Social links */
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0 12px;
+}
+
+.list-inline i {
+  font-size: 32px;
+  color: #b2b2b2;
+}
+
+.list-inline i:hover {
+  color: #6c63ff;
+}
+
+/* Responsive */
+@media (max-width: 760px) {
+  .container {
+    width: 90%;
+  }
+
+  .card-white {
+    padding: 30px 20px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
